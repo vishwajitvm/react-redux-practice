@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import ParentComponent from './props/ParentComponent';
+import Home from './Components/Home';
 
 function App() {
   return (
@@ -10,7 +10,8 @@ function App() {
       </header> */}
 
       <h1>App Component</h1>
-      <ParentComponent />
+      {/* <ParentComponent /> */}
+      <Home />
     </div>
   );
 }
