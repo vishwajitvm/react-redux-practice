@@ -39,15 +39,13 @@
 .img-wrapper img {
   width: 100px;
   margin-top: -10px;
-  
 }
-.cart-wrapper{
+.cart-wrapper {
   height: 100px;
-    width: 500px;
-    border: 1px solid #ccc;
-    margin-left: 10%;
-    box-shadow: #4a474e 5px 3px 5px 0px;
-
+  width: 500px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+  box-shadow: #4a474e 5px 3px 5px 0px;
 }
 .item {
   float: left;
@@ -60,24 +58,23 @@
 .item img {
   width: 50px;
 }
-.add-to-cart img{
+.add-to-cart img {
   width: 80px;
-    position: absolute;
-    right: 1%;
-    top: 1%;
+  position: absolute;
+  right: 1%;
+  top: 1%;
 }
-.cart-count{
-  
-    position: absolute;
-    right: 10px;
-    top: 12px;
-    z-index: 1;
-    background-color: red;
-    padding: 7px;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    color: #fff;
+.cart-count {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  z-index: 1;
+  background-color: red;
+  padding: 7px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #fff;
 }
 /*  */
 @keyframes App-logo-spin {
