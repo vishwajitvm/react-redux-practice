@@ -7,6 +7,7 @@ const initialState = {
 export default function cardItems(state=initialState , action) {
     switch (action.type) {
         case ADD_TO_CART:
+            // console.warn(action)
             return {
                 ...state, //initalState
                 cardData:action.data
